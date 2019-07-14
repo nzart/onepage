@@ -157,8 +157,8 @@ a {
 /* line 123, ../sass/style.scss */
 .textContent {
   width: 60%;
-  font-family: "DM Serif Text", serif;
-  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
   line-height: 1.2;
 }
 @media (max-width: 1000px) {
@@ -173,36 +173,50 @@ a {
     width: 90%;
   }
 }
-/* line 134, ../sass/style.scss */
+@media (max-width: 700px) {
+  /* line 123, ../sass/style.scss */
+  .textContent {
+    font-size: 16px;
+  }
+}
+/* line 137, ../sass/style.scss */
 .textContent p {
   margin: 28px 0;
 }
-/* line 137, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .textContent #headerText {
   font-size: 20px;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .personal {
   background-size: contain;
   width: 320px;
   height: 456px;
 }
 @media (max-width: 1000px) {
-  /* line 141, ../sass/style.scss */
+  /* line 145, ../sass/style.scss */
   .personal {
     margin: 0 auto;
   }
 }
 @media (max-width: 600px) {
-  /* line 141, ../sass/style.scss */
+  /* line 145, ../sass/style.scss */
   .personal {
     width: 200px;
     height: auto;
   }
 }
 
-/* line 154, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
+.sparta {
+  width: 300px;
+  height: auto;
+  background-size: contain;
+  margin: 2em 0;
+}
+
+/* line 165, ../sass/style.scss */
 .newComp {
   width: 275px;
   margin: 4em 0;
@@ -213,31 +227,31 @@ a {
   overflow: hidden;
   transition: box-shadow .25s linear;
 }
-/* line 163, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .newComp:hover {
   box-shadow: 0 20px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 @media (max-width: 680px) {
-  /* line 154, ../sass/style.scss */
+  /* line 165, ../sass/style.scss */
   .newComp {
     margin: 2em auto;
     width: 175px;
   }
 }
 @media (max-width: 480px) {
-  /* line 154, ../sass/style.scss */
+  /* line 165, ../sass/style.scss */
   .newComp {
     margin: .8em auto;
     width: 125px;
   }
 }
-/* line 174, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .newComp .compImg {
   width: inherit;
   height: auto;
   background-size: contain;
 }
-/* line 179, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .newComp .subContent {
   padding: .5em 0 .75em .5em;
   height: 60px;
@@ -246,7 +260,13 @@ a {
   margin: 0 .5em;
   align-items: center;
 }
-/* line 186, ../sass/style.scss */
+@media (max-width: 500px) {
+  /* line 190, ../sass/style.scss */
+  .newComp .subContent {
+    height: 30px;
+  }
+}
+/* line 200, ../sass/style.scss */
 .newComp .subContent .text {
   font-family: "DM Serif Text", serif;
   font-style: italic;
@@ -254,56 +274,57 @@ a {
   font-size: 1em;
 }
 @media (max-width: 500px) {
-  /* line 186, ../sass/style.scss */
+  /* line 200, ../sass/style.scss */
   .newComp .subContent .text {
     font-size: .8em;
   }
 }
-/* line 195, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .newComp .subContent .subText {
   width: 2em;
 }
 @media (max-width: 500px) {
-  /* line 195, ../sass/style.scss */
+  /* line 209, ../sass/style.scss */
   .newComp .subContent .subText {
     width: 1.5em;
   }
 }
 
-/* line 204, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 #contact {
   width: 80%;
   margin: 2em 10em 4em;
   font-family: "DM Sans", sans-serif;
 }
-/* line 209, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 #contact #contactWrap {
   padding: 1em 0 3em;
   margin: 0 auto;
   display: flex;
+  font-size: 18px;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   height: inherit;
 }
-/* line 219, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 #contact #contactWrap ul {
   display: flex;
   justify-content: space-between;
   padding: 0;
 }
-/* line 223, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 #contact #contactWrap ul li {
   list-style: none;
 }
-/* line 225, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 #contact #contactWrap ul li a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 235, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 form {
   margin: .5em auto;
   display: flex;
@@ -315,7 +336,7 @@ form {
   border-radius: .5em;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
-/* line 245, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 form input, form textarea {
   margin: 1em auto;
   padding: .5em;
@@ -323,11 +344,11 @@ form input, form textarea {
   border: none;
   border-bottom: 1px solid #000;
 }
-/* line 252, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 form textarea {
   height: 4em;
 }
-/* line 255, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 form button {
   width: 10em;
   height: 2.5em;
@@ -340,12 +361,12 @@ form button {
   border-radius: .5em;
   cursor: pointer;
 }
-/* line 266, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 form button:hover {
   background-color: #7f2b4a;
 }
 
-/* line 273, ../sass/style.scss */
+/* line 288, ../sass/style.scss */
 footer {
   width: 100%;
   height: 100px;
@@ -356,12 +377,12 @@ footer {
   flex-wrap: wrap;
 }
 @media (max-width: 700px) {
-  /* line 273, ../sass/style.scss */
+  /* line 288, ../sass/style.scss */
   footer {
     flex-wrap: wrap;
   }
 }
-/* line 284, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 footer #foot {
   font-family: "DM Sans", sans-serif;
   color: #fff;
@@ -369,18 +390,34 @@ footer #foot {
   font-weight: 700;
 }
 @media (max-width: 480px) {
-  /* line 284, ../sass/style.scss */
+  /* line 299, ../sass/style.scss */
   footer #foot {
     font-size: 2em;
   }
 }
-/* line 293, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 footer .text {
   font-family: "DM Sans", sans-serif;
   font-size: 1em;
 }
-/* line 297, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 footer a {
   color: #fff;
   text-decoration: none;
+}
+
+/* line 318, ../sass/style.scss */
+.moar {
+  padding-top: 5em;
+}
+
+/* line 322, ../sass/style.scss */
+.bigish {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
