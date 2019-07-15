@@ -331,3 +331,41 @@ footer {
     text-align: center;
 }
 
+
+.o_btn {
+    width: 250px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: $prime;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .fa-arrow-right {
+        font-size: 1.5em;
+        margin: 0 auto;
+        transition: transform .125s linear;
+    }
+    &:hover .fa-arrow-right {
+        transform: translateX(10px);
+    }
+    span {
+        display: flex;
+        font-family: $font;
+        font-size: 1.5em;
+        font-weight: 700;
+        margin: 0 auto;
+        overflow: hidden;
+        color: #fff;
+        transition: transform .125s linear;
+    }
+    &:hover span {
+            transform: translateX(30px);
+        }
+    i{
+        color: #fff;
+        margin: 0 auto;
+        display: flex;
+    }
+}

@@ -421,3 +421,47 @@ footer a {
   height: 100%;
   text-align: center;
 }
+
+/* line 335, ../sass/style.scss */
+.o_btn {
+  width: 250px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #A53860;
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+/* line 345, ../sass/style.scss */
+.o_btn .fa-arrow-right {
+  font-size: 1.5em;
+  margin: 0 auto;
+  transition: transform .125s linear;
+}
+/* line 350, ../sass/style.scss */
+.o_btn:hover .fa-arrow-right {
+  transform: translateX(10px);
+}
+/* line 353, ../sass/style.scss */
+.o_btn span {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 auto;
+  overflow: hidden;
+  color: #fff;
+  transition: transform .125s linear;
+}
+/* line 363, ../sass/style.scss */
+.o_btn:hover span {
+  transform: translateX(30px);
+}
+/* line 366, ../sass/style.scss */
+.o_btn i {
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+}
