@@ -76,6 +76,9 @@ body {
     padding-bottom: 10em;
     #firstText {
         padding-top: 20em;
+        @media (max-width: 480px) {
+            padding-top: 10em;
+        }
     }
 }
 
@@ -304,6 +307,11 @@ footer {
         @media (max-width: 480px) {
             font-size: 2em;
         }
+    }
+    #social {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
     }
     .text {
         font-family: $font;

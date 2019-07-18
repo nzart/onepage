@@ -11,8 +11,6 @@ window.onscroll = function () {
         first.style.color = '#fff';
         second.style.color = '#fff';
         third.style.color = '#fff';
-//        nav.classList.add("nav-colored");
-//        nav.classList.remove("nav-transparent");
     } 
     else {
         nav.style.backgroundColor = '#fff';
@@ -20,7 +18,6 @@ window.onscroll = function () {
         first.style.color = '#000';
         second.style.color = '#000';
         third.style.color = '#000';
-//        nav.classList.add("nav-transparent");
-//        nav.classList.remove("nav-colored");
     }
 };
+

@@ -100,8 +100,14 @@ body {
 #landingPage #firstText {
   padding-top: 20em;
 }
+@media (max-width: 480px) {
+  /* line 77, ../sass/style.scss */
+  #landingPage #firstText {
+    padding-top: 10em;
+  }
+}
 
-/* line 82, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 .head {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -109,40 +115,40 @@ body {
   color: #A53860;
 }
 @media (max-width: 480px) {
-  /* line 82, ../sass/style.scss */
+  /* line 85, ../sass/style.scss */
   .head {
     font-size: 2em;
   }
 }
 
-/* line 92, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 96, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 #hero {
   content: '';
 }
-/* line 98, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 #hero #notorious {
   background-size: contain;
   width: 100%;
   height: auto;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .content {
   padding: 5em 0;
   width: 80%;
 }
 @media (max-width: 768px) {
-  /* line 105, ../sass/style.scss */
+  /* line 108, ../sass/style.scss */
   .content {
     padding: 3em 0;
   }
 }
-/* line 111, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .content .contentWrap {
   padding: 1em 0;
   margin: 0 auto;
@@ -154,7 +160,7 @@ a {
   height: inherit;
 }
 
-/* line 123, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .textContent {
   width: 60%;
   font-family: "DM Sans", sans-serif;
@@ -162,53 +168,53 @@ a {
   line-height: 1.2;
 }
 @media (max-width: 1000px) {
-  /* line 123, ../sass/style.scss */
+  /* line 126, ../sass/style.scss */
   .textContent {
     width: 80%;
   }
 }
 @media (max-width: 768px) {
-  /* line 123, ../sass/style.scss */
+  /* line 126, ../sass/style.scss */
   .textContent {
     width: 90%;
   }
 }
 @media (max-width: 700px) {
-  /* line 123, ../sass/style.scss */
+  /* line 126, ../sass/style.scss */
   .textContent {
     font-size: 16px;
   }
 }
-/* line 137, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .textContent p {
   margin: 28px 0;
 }
-/* line 140, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .textContent #headerText {
   font-size: 20px;
 }
 
-/* line 145, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .personal {
   background-size: contain;
   width: 320px;
   height: 456px;
 }
 @media (max-width: 1000px) {
-  /* line 145, ../sass/style.scss */
+  /* line 148, ../sass/style.scss */
   .personal {
     margin: 0 auto;
   }
 }
 @media (max-width: 600px) {
-  /* line 145, ../sass/style.scss */
+  /* line 148, ../sass/style.scss */
   .personal {
     width: 200px;
     height: auto;
   }
 }
 
-/* line 158, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .sparta {
   width: 300px;
   height: auto;
@@ -216,7 +222,7 @@ a {
   margin: 2em 0;
 }
 
-/* line 165, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .newComp {
   width: 275px;
   margin: 4em 0;
@@ -227,31 +233,31 @@ a {
   overflow: hidden;
   transition: box-shadow .25s linear;
 }
-/* line 174, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .newComp:hover {
   box-shadow: 0 20px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 @media (max-width: 680px) {
-  /* line 165, ../sass/style.scss */
+  /* line 168, ../sass/style.scss */
   .newComp {
     margin: 2em auto;
     width: 175px;
   }
 }
 @media (max-width: 480px) {
-  /* line 165, ../sass/style.scss */
+  /* line 168, ../sass/style.scss */
   .newComp {
     margin: .8em auto;
     width: 125px;
   }
 }
-/* line 185, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .newComp .compImg {
   width: inherit;
   height: auto;
   background-size: contain;
 }
-/* line 190, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .newComp .subContent {
   padding: .5em 0 .75em .5em;
   height: 60px;
@@ -261,12 +267,12 @@ a {
   align-items: center;
 }
 @media (max-width: 500px) {
-  /* line 190, ../sass/style.scss */
+  /* line 193, ../sass/style.scss */
   .newComp .subContent {
     height: 30px;
   }
 }
-/* line 200, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .newComp .subContent .text {
   font-family: "DM Serif Text", serif;
   font-style: italic;
@@ -274,29 +280,29 @@ a {
   font-size: 1em;
 }
 @media (max-width: 500px) {
-  /* line 200, ../sass/style.scss */
+  /* line 203, ../sass/style.scss */
   .newComp .subContent .text {
     font-size: .8em;
   }
 }
-/* line 209, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .newComp .subContent .subText {
   width: 2em;
 }
 @media (max-width: 500px) {
-  /* line 209, ../sass/style.scss */
+  /* line 212, ../sass/style.scss */
   .newComp .subContent .subText {
     width: 1.5em;
   }
 }
 
-/* line 218, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 #contact {
   width: 80%;
   margin: 2em 10em 4em;
   font-family: "DM Sans", sans-serif;
 }
-/* line 223, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 #contact #contactWrap {
   padding: 1em 0 3em;
   margin: 0 auto;
@@ -308,23 +314,23 @@ a {
   flex-wrap: wrap;
   height: inherit;
 }
-/* line 234, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 #contact #contactWrap ul {
   display: flex;
   justify-content: space-between;
   padding: 0;
 }
-/* line 238, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 #contact #contactWrap ul li {
   list-style: none;
 }
-/* line 240, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 #contact #contactWrap ul li a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 250, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 form {
   margin: .5em auto;
   display: flex;
@@ -336,7 +342,7 @@ form {
   border-radius: .5em;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
-/* line 260, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 form input, form textarea {
   margin: 1em auto;
   padding: .5em;
@@ -344,11 +350,11 @@ form input, form textarea {
   border: none;
   border-bottom: 1px solid #000;
 }
-/* line 267, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 form textarea {
   height: 4em;
 }
-/* line 270, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 form button {
   width: 10em;
   height: 2.5em;
@@ -361,12 +367,12 @@ form button {
   border-radius: .5em;
   cursor: pointer;
 }
-/* line 281, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 form button:hover {
   background-color: #7f2b4a;
 }
 
-/* line 288, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 footer {
   width: 100%;
   height: 100px;
@@ -377,12 +383,12 @@ footer {
   flex-wrap: wrap;
 }
 @media (max-width: 700px) {
-  /* line 288, ../sass/style.scss */
+  /* line 291, ../sass/style.scss */
   footer {
     flex-wrap: wrap;
   }
 }
-/* line 299, ../sass/style.scss */
+/* line 302, ../sass/style.scss */
 footer #foot {
   font-family: "DM Sans", sans-serif;
   color: #fff;
@@ -390,28 +396,34 @@ footer #foot {
   font-weight: 700;
 }
 @media (max-width: 480px) {
-  /* line 299, ../sass/style.scss */
+  /* line 302, ../sass/style.scss */
   footer #foot {
     font-size: 2em;
   }
 }
-/* line 308, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
+footer #social {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+/* line 316, ../sass/style.scss */
 footer .text {
   font-family: "DM Sans", sans-serif;
   font-size: 1em;
 }
-/* line 312, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 footer a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 318, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .moar {
   padding-top: 5em;
 }
 
-/* line 322, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .bigish {
   background-size: cover;
   background-repeat: no-repeat;
@@ -422,7 +434,7 @@ footer a {
   text-align: center;
 }
 
-/* line 335, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 .o_btn {
   width: 250px;
   height: 60px;
@@ -434,17 +446,17 @@ footer a {
   align-items: center;
   overflow: hidden;
 }
-/* line 345, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 .o_btn .fa-arrow-right {
   font-size: 1.5em;
   margin: 0 auto;
   transition: transform .125s linear;
 }
-/* line 350, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .o_btn:hover .fa-arrow-right {
   transform: translateX(10px);
 }
-/* line 353, ../sass/style.scss */
+/* line 361, ../sass/style.scss */
 .o_btn span {
   display: flex;
   font-family: "DM Sans", sans-serif;
@@ -455,11 +467,11 @@ footer a {
   color: #fff;
   transition: transform .125s linear;
 }
-/* line 363, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .o_btn:hover span {
   transform: translateX(30px);
 }
-/* line 366, ../sass/style.scss */
+/* line 374, ../sass/style.scss */
 .o_btn i {
   color: #fff;
   margin: 0 auto;
