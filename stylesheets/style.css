@@ -314,26 +314,30 @@ footer #foot {
 /* line 247, ../sass/style.scss */
 footer #social {
   display: flex;
-  width: 80%;
+  width: 40%;
   justify-content: space-around;
 }
-/* line 252, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
+footer #social img {
+  width: 80%;
+}
+/* line 255, ../sass/style.scss */
 footer .text {
   font-family: "DM Sans", sans-serif;
   font-size: 1em;
 }
-/* line 256, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 footer a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 262, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .moar {
   padding-top: 5em;
 }
 
-/* line 266, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .bigish {
   background-size: cover;
   background-repeat: no-repeat;
@@ -344,17 +348,42 @@ footer a {
   text-align: center;
 }
 
-/* line 277, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
+.halfish {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 25%;
+  height: 25%;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  /* line 279, ../sass/style.scss */
+  .halfish {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (max-width: 500px) {
+  /* line 279, ../sass/style.scss */
+  .halfish {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+/* line 298, ../sass/style.scss */
 .frontImg {
   position: relative;
   text-align: center;
 }
-/* line 280, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .frontImg:hover .text {
   text-decoration: underline;
   left: 5%;
 }
-/* line 284, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .frontImg .frontPage {
   background-size: cover;
   background-repeat: no-repeat;
@@ -363,11 +392,11 @@ footer a {
   width: 100%;
   height: 100%;
 }
-/* line 292, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 .frontImg #black {
   color: #000;
 }
-/* line 295, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 .frontImg .text {
   position: absolute;
   color: #fff;
@@ -376,7 +405,7 @@ footer a {
   left: 3%;
   transition: all .7s ease;
 }
-/* line 303, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 .frontImg .main {
   top: .5em;
   font-size: 3em;
@@ -384,26 +413,26 @@ footer a {
   letter-spacing: .5rem;
 }
 @media (max-width: 900px) {
-  /* line 303, ../sass/style.scss */
+  /* line 324, ../sass/style.scss */
   .frontImg .main {
     font-size: 1.75em;
     letter-spacing: .35rem;
   }
 }
 @media (max-width: 700px) {
-  /* line 303, ../sass/style.scss */
+  /* line 324, ../sass/style.scss */
   .frontImg .main {
     font-size: 1.25em;
   }
 }
 @media (max-width: 500px) {
-  /* line 303, ../sass/style.scss */
+  /* line 324, ../sass/style.scss */
   .frontImg .main {
     font-size: 1em;
     letter-spacing: .2rem;
   }
 }
-/* line 321, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .frontImg .sub {
   top: 3.5em;
   font-size: 1.5em;
@@ -411,25 +440,25 @@ footer a {
   letter-spacing: .1rem;
 }
 @media (max-width: 900px) {
-  /* line 321, ../sass/style.scss */
+  /* line 342, ../sass/style.scss */
   .frontImg .sub {
     font-size: 1.15em;
   }
 }
 @media (max-width: 700px) {
-  /* line 321, ../sass/style.scss */
+  /* line 342, ../sass/style.scss */
   .frontImg .sub {
     font-size: 1em;
   }
 }
 @media (max-width: 500px) {
-  /* line 321, ../sass/style.scss */
+  /* line 342, ../sass/style.scss */
   .frontImg .sub {
     font-size: .5em;
   }
 }
 
-/* line 338, ../sass/style.scss */
+/* line 359, ../sass/style.scss */
 .o_btn {
   width: 250px;
   height: 60px;
@@ -441,17 +470,17 @@ footer a {
   align-items: center;
   overflow: hidden;
 }
-/* line 348, ../sass/style.scss */
+/* line 369, ../sass/style.scss */
 .o_btn .fa-arrow-right {
   font-size: 1.5em;
   margin: 0 auto;
   transition: transform .125s linear;
 }
-/* line 353, ../sass/style.scss */
+/* line 374, ../sass/style.scss */
 .o_btn:hover .fa-arrow-right {
   transform: translateX(10px);
 }
-/* line 356, ../sass/style.scss */
+/* line 377, ../sass/style.scss */
 .o_btn span {
   display: flex;
   font-family: "DM Sans", sans-serif;
@@ -462,11 +491,11 @@ footer a {
   color: #fff;
   transition: transform .125s linear;
 }
-/* line 366, ../sass/style.scss */
+/* line 387, ../sass/style.scss */
 .o_btn:hover span {
   transform: translateX(30px);
 }
-/* line 369, ../sass/style.scss */
+/* line 390, ../sass/style.scss */
 .o_btn i {
   color: #fff;
   margin: 0 auto;

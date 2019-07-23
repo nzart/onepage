@@ -1,8 +1,8 @@
 var nav = document.querySelector('.nav');
 var logo = document.querySelector('.logo');
-var first = document.getElementById('first');
-var second = document.getElementById('second');
-var third = document.getElementById('third');
+var first = document.querySelector('.first');
+var second = document.querySelector('.second');
+var third = document.querySelector('.third');
 window.onscroll = function () { 
     "use strict";
     if (window.pageYOffset >= 200 ) {

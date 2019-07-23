@@ -246,8 +246,11 @@ footer {
     }
     #social {
         display: flex;
-        width: 80%;
+        width: 40%;
         justify-content: space-around;
+        img {
+            width: 80%;
+        }
     }
     .text {
         font-family: $font;
@@ -271,6 +274,24 @@ footer {
     width: 100%;
     height: 100%;
     text-align: center;
+}
+
+.halfish {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    @media (max-width: 1000px) {
+        width: 50%;
+        height: 50%;
+    }
+    @media (max-width: 500px) {
+        width: 60%;
+        height: 60%;
+    }
 }
 
 
