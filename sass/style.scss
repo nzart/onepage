@@ -74,11 +74,16 @@ body {
 #landingPage {
     width: 80%;
     height: 100%;
-    padding-bottom: 5em;
+    padding-bottom: 6em;
     #firstText {
-        padding-top: 15em;
+        padding-top: 10em;
         @media (max-width: 500px) {
             padding-top: 10em;
+        }
+        .subhead {
+            font-family: $font;
+            font-size: 1.5em;
+            color: $prime;
         }
     }
 }
